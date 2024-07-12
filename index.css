@@ -1,7 +1,64 @@
-h1{
+header{
     background-color: green;
     color:darkblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-decoration: underline;
+    border:5px solid black;
+    box-shadow: 10px 10px 10px purple;
+}
+*{
+                              margin: 10px;
+}
+.left_side{
+                              text-align: center;
+                              border: 4px solid black;
+                              font-family: 'Times New Roman', Times, serif;
+                              border-style: groove;
+                              border-radius: 5px;
+                              /* border-block: 0px; */
+                              *{
+                              margin:2%;
+                              /* padding: 1px; */
+                              }
+                              padding: 5px;
+                              box-sizing: border-box;
+                              box-shadow: 3px 3px 3px whitesmoke;
+
+
+}
+.under_1{
+                              /* background-image: url('Maijvandar01.jpg'); */
+                              border-bottom: 10px solid red;
+                              border-right: 10px solid red;
+                              border-bottom-left-radius: 10px solid red;
+                              box-shadow: 10px 10px 10px darkred;
+                              image-resolution: 500px;
+                              box-sizing: border-box;
+}
+.upper_write{
+                              text-align: left;
+                              text-transform: capitalize;
+                              text-wrap: 20px;
+}
+
+.extra{
+                              text-align: justify;
+                              padding: 3px;
+                              text-size-adjust:initial;
+                              background-color: aliceblue;
+                              border: 2px solid green;
+                              box-shadow: 4px 4px 4px blue;
+}
+
+.short{
+                              background-color: gray;
+                              text-align: left;
+                              padding: 3px;
+                              background-image: none;
+                              border: 2px solid black;
+                              box-shadow: 2px 2px 2px darkblue;
+}
+.height{
+                            font-style: oblique;
 }
